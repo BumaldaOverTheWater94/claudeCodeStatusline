@@ -1,6 +1,6 @@
 # Claude Code Statusline
 
-A [Claude Code](https://docs.claude.com/en/docs/claude-code) status line that shows context window usage, a per-session token breakdown, tool activity, and an estimated running cost based on on-demand Amazon Bedrock prices.
+A [Claude Code](https://docs.claude.com/en/docs/claude-code) [status line](https://code.claude.com/docs/en/statusline) that shows context window usage, a per-session token breakdown, tool activity, and an estimated running cost based on on-demand Amazon Bedrock prices.
 
 Token counts, tool counts and cost are **running totals for the whole session, including every subagent**. They grow with each response and never reset mid-session. Only the context usage figure describes the current moment.
 
@@ -20,8 +20,6 @@ Token counts, tool counts and cost are **running totals for the whole session, i
 
 - Node.js 18+ (uses the built-in `fetch`)
 - macOS or Linux for the install script (on Windows, use the [manual install](#manual-install))
-- `git` or `curl` for the install script
-- No npm dependencies
 
 ## Installation
 
