@@ -1,0 +1,27 @@
+{
+  "name": "claude-code-statusline",
+  "version": "1.0.0",
+  "description": "Claude Code status line with context usage, session token totals, tool activity, and estimated Amazon Bedrock cost",
+  "private": true,
+  "license": "MIT-0",
+  "author": "BumaldaOverTheWater94",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BumaldaOverTheWater94/claude_code_statusline.git"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "statusline",
+    "bedrock",
+    "tokens"
+  ],
+  "main": "src/ctx_monitor.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node src/ctx_monitor.js",
+    "refresh-pricing": "node src/bedrock_pricing.js"
+  }
+}
