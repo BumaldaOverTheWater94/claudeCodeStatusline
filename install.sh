@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Installs (or updates) the status line and points Claude Code's settings at it.
 #
-#   curl -fsSL https://raw.githubusercontent.com/BumaldaOverTheWater94/claude_code_statusline/master/install.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/BumaldaOverTheWater94/claudeCodeStatusline/master/install.sh | bash
 #
 # Environment overrides:
 #   STATUSLINE_DIR     install location (default: <claude config dir>/statusline)
@@ -13,7 +13,7 @@
 main() {
   set -euo pipefail
 
-  local repo="${STATUSLINE_REPO:-https://github.com/BumaldaOverTheWater94/claude_code_statusline.git}"
+  local repo="${STATUSLINE_REPO:-https://github.com/BumaldaOverTheWater94/claudeCodeStatusline.git}"
   local ref="${STATUSLINE_REF:-master}"
   local config_dir="${CLAUDE_CONFIG_DIR:-$HOME/.claude}"
   local dir="${STATUSLINE_DIR:-$config_dir/statusline}"

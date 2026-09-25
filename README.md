@@ -24,7 +24,7 @@ Token counts, tool counts and cost are **running totals for the whole session, i
 ## Installation
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/BumaldaOverTheWater94/claude_code_statusline/master/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/BumaldaOverTheWater94/claudeCodeStatusline/master/install.sh | bash
 ```
 
 Then restart Claude Code or start a new session.
@@ -51,7 +51,7 @@ The [install script](install.sh):
 1. Clone the repo into your Claude config directory:
 
    ```sh
-   git clone https://github.com/BumaldaOverTheWater94/claude_code_statusline.git ~/.claude/statusline
+   git clone https://github.com/BumaldaOverTheWater94/claudeCodeStatusline.git ~/.claude/statusline
    ```
 
 2. Add the status line to `~/.claude/settings.json`:
